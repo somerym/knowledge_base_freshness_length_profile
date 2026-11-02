@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "somerym-realtimedw_jd034"
+name = "somerym-knowledge_base_freshness_length_profile"
 version = "0.1.0"
 description = "按段落统计实时数仓架构师·知识库的时效性维护相关的长度分布，标出过长、过短与重复表达的部分"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://somerym.github.io"
-Repository = "https://github.com/somerym/realtimedw_jd034"
-Issues = "https://github.com/somerym/realtimedw_jd034/issues"
+Repository = "https://github.com/somerym/knowledge_base_freshness_length_profile"
+Issues = "https://github.com/somerym/knowledge_base_freshness_length_profile/issues"
 
 [project.scripts]
-realtimedw_jd034 = "realtimedw_jd034:main"
+knowledge_base_freshness_length_profile = "knowledge_base_freshness_length_profile:main"
 
 [tool.setuptools]
-py-modules = ["realtimedw_jd034"]
+py-modules = ["knowledge_base_freshness_length_profile"]
